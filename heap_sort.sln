@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "heap_sort", "heap_sort\heap_sort.csproj", "{8D3012ED-89F4-495F-A5E2-545AC691CBEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D3012ED-89F4-495F-A5E2-545AC691CBEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D3012ED-89F4-495F-A5E2-545AC691CBEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D3012ED-89F4-495F-A5E2-545AC691CBEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D3012ED-89F4-495F-A5E2-545AC691CBEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
