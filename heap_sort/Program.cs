@@ -24,5 +24,29 @@ namespace heap_sort
                 adjust(0, i);
             }
         }
+
+        private void adjust(int i, int n)
+        {
+            int t, j;
+            try
+            {
+                t = r[i];
+                j = 2 * i;
+                while (j <= n)
+                {
+                    if (j < n && r[j] < r[j + 1])
+                        j++;
+                    if (t >= r[j])
+                        break;
+                    r[j / 2] = r[j];
+                    j *= 2;
+                }
+                r[j / 2] = t;
+            }
+            catch (IndexOutOfRangeException e)
+            {
+                Console.WriteLine("Array Out of Bounds ", e);
+            }
+        }
     }
 }
