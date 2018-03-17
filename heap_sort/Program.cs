@@ -56,5 +56,16 @@ namespace heap_sort
                 Console.WriteLine("{0}", r[i]);
             }
         }
+
+        public static void Main()
+        {
+            Heap obj = new Heap();
+            Console.WriteLine("Elements Before sorting : ");
+            obj.print();
+            obj.hsort();
+            Console.WriteLine("Elements After sorting : ");
+            obj.print();
+            Console.Read();
+        }
     }
 }
