@@ -48,5 +48,13 @@ namespace heap_sort
                 Console.WriteLine("Array Out of Bounds ", e);
             }
         }
+
+        public void print()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("{0}", r[i]);
+            }
+        }
     }
 }
